@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@400;700&display=swap');
+
+:root {
+    --cream: #FDF5E6;
+    --soft-brown: #5D4037;
+    --pastel-pink: #F8BBD0;
+    --lemon-yellow: #FFF9C4;
+    --dark-brown: #3E2723;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--cream);
+    color: var(--soft-brown);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: var(--dark-brown);
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--soft-brown) !important;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: var(--soft-brown) !important;
+    padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover {
+    color: var(--pastel-pink) !important;
+}
+
+.btn-primary {
+    background-color: var(--soft-brown);
+    border-color: var(--soft-brown);
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-brown);
+    border-color: var(--dark-brown);
+}
+
+.btn-secondary {
+    background-color: var(--pastel-pink);
+    border-color: var(--pastel-pink);
+    color: var(--dark-brown);
+    font-weight: 600;
+}
+
+.btn-secondary:hover {
+    background-color: #f48fb1;
+    border-color: #f48fb1;
+    color: var(--dark-brown);
+}
+
+.hero-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, var(--cream) 0%, #fff 100%);
+}
+
+.category-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+}
+
+.footer {
+    background-color: var(--dark-brown);
+    color: white;
+    padding: 50px 0;
+}
+
+.footer h5 {
+    color: var(--pastel-pink);
+}
+
+.footer a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: white;
+}
